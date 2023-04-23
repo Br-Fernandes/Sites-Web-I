@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.sites-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 60vw;
+    border: 3px solid #222;
+}
+
+.site-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90%;
+    width: 100%;
+}
+.site-box a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    color: #111999;
+}
+
+.site-image img {
+    height: 150px;
+    width: 300px;
+}
+.site-name {
+    font-size: 40px;
+}
